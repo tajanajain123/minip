@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Ambulance Booking System</title>
+    <link rel="stylesheet" href="min.css"> <!-- Link to your main CSS file -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #ffe6e6;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar nav ul {
+            list-style: none;
+        }
+
+        .sidebar nav ul li {
+            margin: 20px 0;
+        }
+
+        .sidebar nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            display: block;
+            padding: 10px 0;
+            transition: color 0.3s;
+        }
+
+        .sidebar nav ul li a:hover {
+            color: #ff4747;
+        }
+
+        .main-content {
+            width: 80%;
+            padding: 20px; /* Adjusted padding */
+            background-color: #fdf6f6; 
+            display: flex;
+            flex-direction: column; /* Ensure vertical layout */
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
+            text-align: center; /* Center align text */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 5px; /* Reduced margin */
+        }
+
+        .main-content p {
+            font-size: 16px;
+            margin: 5px 0 15px; /* Adjusted margin to reduce gaps */
+            color: #555;
+        }
+
+        .services-list {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;           /* Remove padding */
+            width: 100%;          /* Full width for the list */
+        }
+
+        .services-list li {
+            margin: 3px 0;       /* Space between each service */
+            font-size: 18px;      /* Font size for services */
+            color: #555;          /* Text color for services */
+        }
+
+        footer {
+            text-align: center; /* Center footer text */
+            margin-top: 20px; /* Add some margin above the footer */
+            color: #666; /* Footer text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo"> <!-- Ensure the logo path is correct -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Our Services</h1>
+            <p>We provide 24/7 emergency ambulance services, medical transportation, and on-the-spot healthcare services across Bengaluru.</p>
+            <ul class="services-list">
+                <li>Emergency Ambulance</li>
+                <li>Non-emergency Medical Transportation</li>
+                <li>On-call Medical Services</li>
+                <li>Long-distance Medical Transfers</li>
+                <li>Mobile Intensive Care Units (MICU)</li>
+            </ul>
+            <footer class="footer">
+                <p>&copy; 2024 Ambulance Booking System. All rights reserved.</p>
+            </footer>
+        </main>
+        
+    </div>
+
+    
+</body>
+</html>
